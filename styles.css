@@ -1,0 +1,28 @@
+body{
+    margin: 0px;
+    background-color: #151515;
+}
+
+header{
+    height: 15vh;
+    display: flex;
+    background-color: #5fc71f;
+}
+
+header div, img{
+    height: 100%;
+}
+
+#headersection{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.botaocabecalho{
+    align-self: flex-end;
+}
+
+.container1{
+    display: flex;
+    flex-direction: column;
+}

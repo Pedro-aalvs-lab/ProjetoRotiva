@@ -4,9 +4,11 @@ body{
 }
 
 header{
-    height: 15vh;
+    height: 17vh;
     display: flex;
     background-color: #5fc71f;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 header div, img{
@@ -16,13 +18,28 @@ header div, img{
 #headersection{
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .botaocabecalho{
     align-self: flex-end;
+    justify-content: center;
+    padding: 5px;
+    margin: 10px;
+    align-self: center;
 }
 
 .container1{
     display: flex;
     flex-direction: column;
+    width: 100%;
+}
+
+.botoes{
+    display: flex;
+    flex-direction: column;
+    background-color: #151515;
+    border: 10px solid white;
+    border-radius: 2%;
+    padding: 20px;
 }
